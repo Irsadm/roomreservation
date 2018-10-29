@@ -1,0 +1,31 @@
+.navitem a {
+    border-bottom: 3px solid #FEDCD2;
+}
+.navitem a:hover {
+    /*background-color: #DF744A !important;*/
+    /*color: #ffff !important;*/
+    /*border-radius: 0.2em;*/
+    text-decoration: none;
+    border-bottom: 3px solid #dcb239;
+    line-height: -2px;
+    /*padding: 2px; dcb239*/
+}
+
+
+footer {
+    display: block;
+    background-color: white;
+    height: 10%;
+    width: 100%;
+}
+
+.profile-img {
+    margin-top: -5px;
+    margin-right: 5px;
+    float: left;
+    /*background: url(example.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */*/
+    background-size: auto 100%; /* Interchange this value depending on prefering width vs. height */
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}

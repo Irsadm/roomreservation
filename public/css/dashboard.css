@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+body {
+    font-family: 'Libre Baskerville', serif !important;
+}
+
+.tombol {
+    margin-right: 20% !important;
+    margin-top: 1%;
+}
+/*
+button {
+    background-color: #76323f  !important;
+}
+
+
+button:active {
+    box-shadow: none !important;
+}
+
+button > span {
+    background-color: transparent !important;
+}
+*/
+.navbar-text {
+    display: inline;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+ul li a:hover {
+    text-decoration: underline;
+    color: black;
+}
+.classUp {
+    margin-bottom: 5%;
+    display: absolute !important;
+    animation: 100s slide-up;
+  margin-top:0%;
+}
+.bottom {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin-top: 20%;
+}
+.theme-color {
+    background-color: #BFD8D2 !important;
+
+}
+.navbar-light {
+    background-color: #FEDCD2 !important;
+}
+
+ul.navbar {
+    background-color: transparent !important;  
+    border: none;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+img {
+    width: 60%;
+}
+
+a.nav-link {
+    color: #DF744A !important;
+}
+
+.canvas {
+    width: 70% !important;
+    height: 65% !important;
+    margin: auto;
+    position: relative;
+    margin-bottom: 4% !important;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.zoom-out {
+    width: 50% !important;
+    height: 40% !important;
+}
+
+.icon-right {
+    border: 5px solid #BFD8D2;
+    width: 80%;
+    flex: 0 !important;
+    height: 10%;
+    color:white;
+    font-size: 4em;
+    line-height: 0 !important;
+    box-sizing: border-box;
+    background-color: #DF744A;
+    margin: auto;
+    border-radius: 0.2em;
+    padding: 2%;
+    position: block;
+
+}
+
+i.fa {
+    margin: auto !important;
+}
+
+ul.icons>a li {
+    border-radius: 0.2em;
+    list-style-type: none;
+    margin: 0 0 5px 0;
+    /*box-sizing: border-box;*/
+    padding: 7px;
+    width: 100%;
+    font-size: 170%;
+    color: white;
+    background-color: #DF744A;
+}
+
+ul.icons>li a {
+    color: white;
+    background-color: #DF744A;
+}
+
+ul.icons>a li:hover {
+    background-color: white;
+    color: #DF744A;
+}
+
+ul.icons>li:hover {
+    background-color: white;
+    color: #DF744A;
+    
+}
+
+span.small {
+    display: inline;
+    /*font-size: 12px !important;*/
+    position: relative;
+    padding:0px;
+    margin: auto;
+    margin-top: 9%;
+    /*margin-top: -4%;*/
+    /*color: #DF744A;*/
+    font-family: 'Libre Baskerville', serif;
+    box-sizing: border-box;
+}
+/*modal*/
+.modal-body  {
+    color: #DF744A;
+    font-weight: 400;
+    background-color: #BFD8D2;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.modal-header {
+    color: #ffff;
+    background-color: #DF744A;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.modal-footer {
+    color: #ffff;
+    background-color: #BFD8D2;
+    font-family: 'Libre Baskerville', serif;
+    border: none !important;
+    padding-right: 29px;
+}
+
+.btn-kirim {
+    background-color: #DF744A;
+    color: white;
+    width: 20%;
+    height: auto;
+    margin-left: 4; 
+}
+/*form*/
+.form-control {
+    color: black !important;
+    background-color: transparent !important;
+    border: none;
+    border-bottom: 1px solid #DF744A !important;
+    border-radius: 0 !important;
+    font-family: 'Libre Baskerville', serif;
+    padding-left: 0 !important;
+}
+
+.form-control:focus {
+    border-bottom: 1px solid #dcb239 !important;
+}
+
+span.errorMsg {
+    color: #dcb239 !important;
+    font-weight: lighter !important;
+    font-style: italic;
+    /*font-size: 8px !important;*/
+}
+
+ul>li {
+    list-style: none;
+    size: 5px;
+    line-height: 2;
+    display: inline !important;
+}
+
+.form-check {
+    color: black !important;
+    background-color: transparent !important;
+    border: none;
+    border-bottom: 1px solid #DF744A !important;
+    border-radius: 0 !important;
+    font-family: 'Libre Baskerville', serif;
+    padding-left: 0 !important;
+    width: 50%;
+    text-align: center;
+}
+
+input[type="number"].form-check:focus-within {
+    outline: none !important;
+    border: none !important;
+    border-bottom: 1px solid #dcb239 !important;
+}
+
+input[type="checkbox"] {
+ -ms-transform: scale(1.5); /* IE */
+ -moz-transform: scale(1.5); /* FF */
+ -webkit-transform: scale(1.5); /* Safari and Chrome */
+ -o-transform: scale(1.5); /* Opera */
+  padding: 5px;
+margin-right: 5px;
+}
+
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="date"]::-webkit-outer-spin-button,
+input[type="date"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
